@@ -1,0 +1,35 @@
+body
+    {
+    height:50px;
+    width:400px;
+    background-color:rgb(112, 111, 108);
+      font-family: "Brush Script MT", cursive;
+    }
+          
+.red {
+   height: 100px;
+   width: 100px;
+   background: red;
+   border-radius: 80%;
+  }
+  
+.black {     
+   height: 100px;
+   width: 100px;
+   background: black;  /* fixed typo and changed color */
+   border-radius: 80%;
+  }
+    
+.pink {
+   height: 100px;
+   width: 100px;
+   background: pink;   /* fixed typo and changed color */
+   border-radius: 80%;
+  }
+   
+.circle-container {
+  display: flex;           /* arrange children in a row */
+  justify-content: center; /* center the row horizontally */
+  gap: 20px;               /* space between circles */
+  margin-top: 20px;        /* optional spacing from content above */
+  }
